@@ -11,6 +11,7 @@ function rangeDatePicker(target, firstDate, secondDate) {
         checker();
     }
 
+    
     //update checker
     $('[data-year=' + name + ']').on("change", function () {
         checker();
